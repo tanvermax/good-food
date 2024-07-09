@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#hero {
+    height: 50rem;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url('../hero-bg.png');
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero_container {
+    width: 55.6rem;
+    margin: 0px auto;
+
+}
+
+
+#hero .hero_container .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+#hero .hero_container .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 69.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#hero .hero_container .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15.66px;
+    font-weight: 500;
+    line-height: 24.36px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    margin-bottom: 20px;
+}
+
+.btn_container {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 18px 27px 21px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+#card_box {
+    width: 1148px;
+    height: 649px;
+    margin:145px 261px;
+}
+
+.card_img {
+    /* display: grid; */
+
+}
+#card_box .card_info{
+    /*  */
+}
+
+#card_box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .6;
+}
+
+#card_box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
