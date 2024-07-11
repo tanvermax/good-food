@@ -8,7 +8,7 @@
 #hero {
     height: 50rem;
     background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
-        url('../hero-bg.png');
+        url("hero-bg.png");
 
     background-size: cover;
     background-position: center;
