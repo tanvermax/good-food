@@ -19,7 +19,8 @@
 }
 
 #hero .hero_container {
-    width: 55.6rem;
+    width: 1670px;
+    /* height: 799px; */
     margin: 0px auto;
 
 }
@@ -78,18 +79,8 @@
     border: none;
 }
 
-#card_box {
-    width: 1148px;
-    height: 649px;
-    margin:145px 261px;
-}
-
-.card_img {
-    /* display: grid; */
-
-}
-#card_box .card_info{
-    /*  */
+.card_img img {
+    width: 100%;
 }
 
 #card_box .subtitle {
@@ -103,6 +94,11 @@
     opacity: .6;
 }
 
+.card_img {
+    display: flex;
+    gap: 30px;
+}
+
 #card_box .title {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -111,4 +107,162 @@
     line-height: 64px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.container {
+    margin: 0px auto;
+}
+
+#card_box {
+    margin: 145px auto;
+    width: 1148px;
+}
+
+.card_info {
+    width: 650px;
+    margin: 100px auto;
+
+}
+
+.discount {
+    text-align: center;
+
+}
+
+.pizza_box {
+    border-radius: 8px;
+    width: 152px;
+    height: 50px;
+    background: rgba(82, 195, 3, 0.15);
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 28px;
+}
+
+.pizza {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.up_to {
+    margin-top: 20px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.up_des {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    margin-top: 20px;
+}
+
+.watch_btn {
+    border-radius: 8px;
+    width: 198px;
+    height: 60px;
+    background: rgb(82, 195, 3);
+    margin-top: 60px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.inner_b {
+    /* color: rgb(255, 255, 255); */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(82, 195, 3);
+    border: none;
+    /* background-color:rgb(82, 195, 3) ; */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.inner_b a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+footer {
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8183648459383753) 6%), url("img/social-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.social_bg {
+    padding: 119px 479px;
+    text-align: center;
+}
+
+.we_al {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.dont_miss {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: .7;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.dollow {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px auto;
+    opacity: .7;
+}
+.insta{
+    height: 40px;
+    gap: 25px;
+}
+.insta img{
+    height: 100%;
+    margin-left: 25px;
+}
+.social_bg hr{
+    width: 1250px;
+    margin-left: -180px;
+    opacity: .7;
+    gap: 20px;
 }
